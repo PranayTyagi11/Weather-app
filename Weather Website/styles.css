@@ -1,0 +1,78 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #B4D4FF;
+  font-family: "Raleway", sans-serif;
+  color: #EEF5FF;
+}
+
+
+.form-control {
+  background-color: white;
+  color: #EEF5FF;
+}
+
+.current-weather {
+  background-image: linear-gradient(to bottom right,#86B6F6,#B4D4FF, #86B6F6);
+}
+
+.forecast h3 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #86B6F6;
+  color: #EEF5FF;
+  width: 150px;
+  height: 180px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box p {
+  margin: 5px 0;
+}
+
+.text-left{
+  padding-left: 20px;
+}
+
+
+.container-fluid {
+  background-color: #B4D4FF;
+}
+
+.header{
+  background-color: #86B6F6;
+  
+  
+}
+
+.extraBold{
+  font-weight: 1000;
+}
+
+
+
+
+
+
+
